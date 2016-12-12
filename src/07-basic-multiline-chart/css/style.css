@@ -1,0 +1,28 @@
+
+#mainContent{
+    font-family: courier;
+}
+
+#container {
+    float:left;
+    overflow:auto;
+    width: 50%;
+}
+
+#info {
+    float:left;
+    width: 50%;
+}
+
+ul > li {
+  margin-bottom:15px;
+  font-size: 1.2em;
+  max-width: 90%;
+}
+
+/*
+#paper
+{
+  background-color: #ccc;  
+}
+*/
