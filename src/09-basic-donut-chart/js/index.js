@@ -46,7 +46,6 @@ var labeldata = {
 
 function GenerateDonut(labels, dataReceived) {
 
-
   var WIDTH = 600;
   var HEIGHT = 250;
   var THICKNESS = 45;
