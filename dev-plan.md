@@ -1,4 +1,4 @@
-# raphael-dashboard
+# development plan - raphael-dashboard
 01. ~~Basic shapes~~
 02. ~~Write text~~
 03. ~~Draw lines~~
