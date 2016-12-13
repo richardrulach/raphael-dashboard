@@ -1,13 +1,13 @@
 # raphael-dashboard
-01. Basic shapes
-02. Write text
-03. Draw lines
-04. Basic horizontal bar chart
-05. Basic vertical bar chart
-06. Basic line chart
-07. Basic multiline chart
-08. Basic pie chart
-09. Basic donut chart
+01. ~~Basic shapes~~
+02. ~~Write text~~
+03. ~~Draw lines~~
+04. ~~Basic horizontal bar chart~~
+05. ~~Basic vertical bar chart~~
+06. ~~Basic line chart~~
+07. ~~Basic multiline chart~~
+08. ~~Basic pie chart~~
+09. ~~Basic donut chart~~
 10. Bar chart - double y axis
 11. Line chart - double y axis
 12. Scatter graph
