@@ -8,18 +8,18 @@ var GRAPH_HEIGHT = 160,
   Y_TOP = 55;
 
 var items = {
-  "header": "Online orders",
+  "header": "Number of sales made and staffing levels",
   "xlabels": [
     "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"
   ],
   "datasets": [{
-    "label": "Mikey", // UNUSED IN THIS EXAMPLE
+    "label": "Sales", 
     "color": "darkGreen",
     "datapoints": [20, 30, 25, 40, 35, 55, 30]
   },{
-    "label": "Dr. X", // UNUSED IN THIS EXAMPLE
+    "label": "Staffing levels", 
     "color": "navy",
-    "datapoints": [35, 55, 30, 20, 17,45,230]
+    "datapoints": [7, 8, 7, 7, 5, 8, 9]
   }]
 
 }
@@ -79,7 +79,8 @@ for (var key in items.datasets) {
 // DRAW X AND Y AXES
 rafa.path('M' + X_START + ' ' + (Y_BOTTOM - GRAPH_HEIGHT) +
   'L' + X_START + ' ' + Y_BOTTOM + ' ' +
-  (X_START + GRAPH_WIDTH) + ' ' + Y_BOTTOM);
+  (X_START + GRAPH_WIDTH) + ' ' + Y_BOTTOM + ' ' + 
+  (X_START + GRAPH_WIDTH) + ' ' + (Y_BOTTOM - GRAPH_HEIGHT) );
 
 // LABEL X AXIS SECTIONS
 for (var i = 0; i <= items.xlabels.length; i++) {
